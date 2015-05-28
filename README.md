@@ -35,7 +35,7 @@ brew install node
 #### Grunt
 
 ```
-npm install grunt -g
+npm install grunt-cli -g
 ```
 
 ### Install the project dependancies
