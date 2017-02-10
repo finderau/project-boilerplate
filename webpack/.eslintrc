@@ -1,0 +1,55 @@
+{
+  "env": {
+    "es6": true,
+    "browser": true,
+    "mocha": true
+  },
+  "extends": "airbnb-base",
+  "parser": "babel-eslint",
+  "plugins": [
+    "react",
+    "import"
+  ],
+  "rules": {
+    "class-methods-use-this": 1,
+    "jsx-quotes": 2,
+    "import/extensions": 2,
+    "import/no-named-as-default": 1,
+    "react/display-name": [ 2, {"ignoreTranspilerName": false }],
+    "react/forbid-prop-types": [2, {"forbid": ["any"]}],
+    "react/jsx-boolean-value": 1,
+    "react/jsx-curly-spacing": 2,
+    "react/jsx-indent": [1, 2],
+    "react/jsx-indent-props": 0,
+    "react/jsx-key": 2,
+    "react/jsx-max-props-per-line": 0,
+    "react/jsx-no-bind": [2, {"ignoreRefs": true}],
+    "react/jsx-no-duplicate-props": 2,
+    "react/jsx-no-literals": 0,
+    "react/jsx-no-undef": 2,
+    "react/jsx-pascal-case": 2,
+    "react/jsx-sort-prop-types": 0,
+    "react/jsx-sort-props": 0,
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-vars": 2,
+    "react/jsx-wrap-multilines": 2,
+    "react/no-danger": 1,
+    "react/no-did-mount-set-state": 2,
+    "react/no-did-update-set-state": 2,
+    "react/no-direct-mutation-state": 2,
+    "react/no-multi-comp": [ 2, { "ignoreStateless": true }],
+    "react/no-set-state": 0,
+    "react/prefer-es6-class": 2,
+    "react/prop-types": 2,
+    "react/react-in-jsx-scope": 2,
+    "react/self-closing-comp": 2,
+    "react/sort-comp": 2
+  },
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "webpack.config.js"
+      }
+    }
+  }
+}
