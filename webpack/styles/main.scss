@@ -1,8 +1,11 @@
 @charset "UTF-8"; // sass-lint:disable-line quotes
 
-@import '../node_modules/grunt-finder-SASS/assets/stylesheets/finder_sass';
-@import '../node_modules/luna/src/toolkit/toolkit';
-@import '../node_modules/luna/src/components/typography';
+@import '~grunt-finder-SASS/assets/stylesheets/mixins';
+@import '~luna/src/toolkit/toolkit';
+@import '~luna/src/components/typography';
 
-@import './constructs/project';
+// Components
 @import './components/heading';
+
+// Constructs
+@import './constructs/project';

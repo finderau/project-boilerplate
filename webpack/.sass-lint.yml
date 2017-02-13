@@ -21,8 +21,8 @@ rules:
     - 0
     -
       allow-leading-underscore: false
-      convention: ^([a-zA-Z]*)-(([a-zA-Z]*)+)(__(([a-zA-Z0-9]+)+))?(--(([a-zA-Z0-9])+)+)?$
-      convention-explanation: 'Class name does not follow conventions: .luna-[className][__descendantName][--modifierName], .u-utilityName, or .is-stateName'
+      convention: ^(([a-zA-Z]*)+)(__(([a-zA-Z0-9]+)+))?(--(([a-zA-Z0-9])+)+)?$
+      convention-explanation: 'Class name does not follow conventions: .[className][__descendantName][--modifierName], .u-utilityName, or .is-stateName'
   empty-args:
     - 2
     -
