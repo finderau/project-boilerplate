@@ -1,8 +1,0 @@
-public
-!public/index.html
-node_modules
-npm-debug.log
-
-# NYC / Istanbul / Coverage reports
-.nyc_output
-coverage
