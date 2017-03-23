@@ -1,0 +1,20 @@
+{
+  "require": [
+      "babel-register"
+  ],
+   "exclude": [
+      "js/**/*.spec.js",
+      "build",
+      "webpack.config.js",
+      "testConfig.js",
+      "postcss.config.js",
+      "public"
+    ],
+  "sourceMap": false,
+  "instrument": false,
+  "reporter": [
+    "html",
+    "text"
+  ],
+  "all": true
+}

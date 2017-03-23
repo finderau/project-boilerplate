@@ -1,0 +1,30 @@
+{
+  "sourceMaps": true,
+  "presets": [
+    "es2015",
+    "react",
+    "stage-3"
+  ],
+  "plugins": [
+    "transform-react-jsx",
+    "transform-class-properties",
+    "transform-react-jsx-source",
+    "ramda"
+  ],
+  "env": {
+    "test": {
+      "plugins": [
+        ["istanbul", {
+          "exclude": [
+            "js/**/*.spec.js",
+            "build",
+            "webpack.config.js",
+            "testConfig.js",
+            "postcss.config.js",
+            "public"
+          ]
+        }]
+      ]
+    }
+  }
+}
