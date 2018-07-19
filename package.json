@@ -65,7 +65,6 @@
     "redux-immutable-state-invariant": "~1.2.4",
     "enzyme": "~2.4.0",
     "mocha": "~3.0.0",
-    "grunt-finder-SASS": "git+ssh://git@github.com:finderau/SASS.git#1.0.22",
     "fetch-mock": "~5.9.3",
     "luna": "git+ssh://git@github.com:finderau/luna.git#master",
     "luna-react": "git+ssh://git@github.com:finderau/luna-react.git",
